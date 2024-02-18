@@ -1,0 +1,123 @@
+/* index.module.css */
+.container {
+    display: flex;
+    min-height: 100vh;
+    background-color: #121212; /* Ensuring the container matches the dark theme */
+}
+
+.pdfPreview {
+    flex: 1;
+    background-color: #2C2C2C; /* Slightly lighter dark shade for contrast */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.querySection {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.title {
+    font-size: 2em;
+    color: #E0E0E0; /* Light text color for titles */
+    margin-bottom: 1rem;
+}
+
+.inputContainer {
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.input {
+    padding: 10px;
+    border: 2px solid #555; /* Darker border for inputs */
+    border-radius: 4px;
+    font-size: 1em;
+    width: 100%;
+    color: #E0E0E0; /* Light text color for inputs */
+    background-color: #333; /* Input background */
+}
+
+.button {
+    padding: 10px 15px;
+    background-color: #03DAC6; /* Teal for buttons */
+    color: #121212; /* Dark text for contrast */
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    text-align: center;
+}
+
+.link {
+    color: #BB86FC; /* Light purple for links */
+    margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+/* BEGIN: Additional Styles for Sleeker Design */
+
+.container {
+    padding: 20px;
+}
+
+.pdfPreview {
+    margin-right: 20px;
+}
+
+.querySection {
+    margin-left: 20px;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    margin-bottom: 10px;
+}
+
+.button {
+    width: fit-content;
+    margin-top: 10px;
+}
+
+/* END: Additional Styles for Sleeker Design */
+/* BEGIN: Additional Styles for Clean Label */
+
+.label {
+    font-size: 1em;
+    color: #E0E0E0; /* Light text color for labels */
+    margin-bottom: 0.5rem;
+}
+
+/* END: Additional Styles for Clean Label */
+.querySection {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.label {
+    font-size: 1em;
+    color: #E0E0E0; /* Light text color for labels */
+    margin-bottom: 0.5rem;
+}
